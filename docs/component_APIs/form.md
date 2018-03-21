@@ -4,7 +4,7 @@ A container where there is a label on the left and a component on the right.
 
 Each form component has a single prop, `label` which sets the label to its left. It is required.
 
-```javascript
+```jsx
 import React, { Component } from 'react';
 
 import { render, Window, App, Form, TextInput } from 'proton-native';
@@ -39,22 +39,22 @@ render(<Example />);
 
 Whether the Form is enabled.
 
-| **Type** | **Required** |
-| --- | --- |
-| bool | No |
+| **Type** | **Required** | **Default** |
+| --- | --- | --- |
+| bool | No | true |
 
 ### visible
 
 Whether the Form can be seen.
 
-| **Type** | **Required** |
-| --- | --- |
-| bool | No |
+| **Type** | **Required** | **Default** |
+| --- | --- | --- |
+| bool | No | true |
 
 ### padded
 
 Whether there is padding between the components
 
-| **Type** | **Required** |
-| --- | --- |
-| bool | No |
+| **Type** | **Required** | **Default** |
+| --- | --- | --- |
+| bool | No | false |

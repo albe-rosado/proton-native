@@ -4,7 +4,7 @@ A clickable object which registers a callback when clicked.
 
 The following example creates a simple button, with the text "This is a button".
 
-```javascript
+```jsx
 import React, { Component } from 'react';
 
 import { render, Window, App, Button } from 'proton-native';
@@ -37,25 +37,25 @@ render(<Example />);
 
 The text to display in the button.
 
-| **Type** | **Required** |
-| --- | --- |
-| string | No |
+| **Type** | **Required** | **Default** |
+| --- | --- | --- |
+| string | No | '' |
 
 ### enabled
 
 Whether the button can be clicked.
 
-| **Type** | **Required** |
-| --- | --- |
-| bool | No |
+| **Type** | **Required** | **Default** |
+| --- | --- | --- |
+| bool | No | true |
 
 ### visible
 
 Whether the button can be seen.
 
-| **Type** | **Required** |
-| --- | --- |
-| bool | No |
+| **Type** | **Required** | **Default** |
+| --- | --- | --- |
+| bool | No | true |
 
 ### onClick
 

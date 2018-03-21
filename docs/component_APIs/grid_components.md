@@ -2,7 +2,7 @@
 
 A child in a [Grid component](grid.md). Can specify the location in the grid, as well as additional formatting.
 
-```javascript
+```jsx
 import React, { Component } from 'react';
 
 import { render, Window, App, Grid, Button, TextInput } from 'proton-native';
@@ -43,38 +43,38 @@ render(<Example />);
 
 What column the component resides in.
 
-| **Type** | **Required** |
-| --- | --- |
-| number | No |
+| **Type** | **Required** | **Default** |
+| --- | --- | --- |
+| number | No | 0 |
 
 ### row
 
 What row the component resides in.
 
-| **Type** | **Required** |
-| --- | --- |
-| number | No |
+| **Type** | **Required** | **Default** |
+| --- | --- | --- |
+| number | No | 0 |
 
 ### span
 
 How many rows/columns the component takes off.
 
-| **Type** | **Required** |
-| --- | --- |
-| object {x: number, y: number} | No |
+| **Type** | **Required** | **Default** |
+| --- | --- | --- |
+| object {x: number, y: number} | No | {x: 1, y: 1} |
 
 ### expand
 
 Whether the component can expand in the direction.
 
-| **Type** | **Required** |
-| --- | --- |
-| object {h: bool, v: bool} | No |
+| **Type** | **Required** | **Default** |
+| --- | --- | --- |
+| object {h: bool, v: bool} | No | {h: true, v: true} |
 
 ### align
 
 Whether the component is aligned with the other components in the column/row.
 
-| **Type** | **Required** |
-| --- | --- |
-| object {h: bool, v: bool} | No |
+| **Type** | **Required** | **Default** |
+| --- | --- | --- |
+| object {h: bool, v: bool} | No | {h: true, v: true} |

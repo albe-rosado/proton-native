@@ -2,7 +2,7 @@
 
 A grid where components can be placed in rows and columns. 
 
-```javascript
+```jsx
 import React, { Component } from 'react';
 
 import { render, Window, App, Grid, Button, TextInput } from 'proton-native';
@@ -41,22 +41,22 @@ render(<Example />);
 
 Whether the Form is enabled.
 
-| **Type** | **Required** |
-| --- | --- |
-| bool | No |
+| **Type** | **Required** | **Default** |
+| --- | --- | --- |
+| bool | No | true |
 
 ### visible
 
 Whether the Form can be seen.
 
-| **Type** | **Required** |
-| --- | --- |
-| bool | No |
+| **Type** | **Required** | **Default** |
+| --- | --- | --- |
+| bool | No | true |
 
 ### padded
 
 Whether there is padding between the components
 
-| **Type** | **Required** |
-| --- | --- |
-| bool | No |
+| **Type** | **Required** | **Default** |
+| --- | --- | --- |
+| bool | No | false |

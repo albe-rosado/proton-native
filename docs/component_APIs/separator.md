@@ -2,7 +2,7 @@
 
 A line to separate two components, commonly used in a Box.
 
-```javascript
+```jsx
 import React, { Component } from 'react';
 
 import { render, Window, App, Box, Button, TextInput, Separator } from 'proton-native';
@@ -38,22 +38,22 @@ render(<Example />);
 
 Whether the line is vertical or horizontal.
 
-| **Type** | **Required** |
-| --- | --- |
-| bool | No |
+| **Type** | **Required** | **Default** |
+| --- | --- | --- |
+| bool | No | true |
 
 ### enabled
 
 Whether the Separator is enabled.
 
-| **Type** | **Required** |
-| --- | --- |
-| bool | No |
+| **Type** | **Required** | **Default** |
+| --- | --- | --- |
+| bool | No | true |
 
 ### visible
 
 Whether the Separator can be seen.
 
-| **Type** | **Required** |
-| --- | --- |
-| bool | No |
+| **Type** | **Required** | **Default** |
+| --- | --- | --- |
+| bool | No | true |

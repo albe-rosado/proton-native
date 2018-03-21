@@ -2,7 +2,7 @@
 
 A place for the user to type in a string.
 
-```javascript
+```jsx
 import React, { Component } from 'react';
 
 import { render, Window, App, TextInput } from 'proton-native';
@@ -38,49 +38,49 @@ render(<Example />);
 
 The default text in the TextInput.
 
-| **Type** | **Required** |
-| --- | --- |
-| string | No |
+| **Type** | **Required** | **Default** |
+| --- | --- | --- |
+| string | No | '' |
 
 ### enabled
 
 Whether the TextInput can be used.
 
-| **Type** | **Required** |
-| --- | --- |
-| bool | No |
+| **Type** | **Required** | **Default** |
+| --- | --- | --- |
+| bool | No | true |
 
 ### visible
 
 Whether the TextInput can be seen.
 
-| **Type** | **Required** |
-| --- | --- |
-| bool | No |
+| **Type** | **Required** | **Default** |
+| --- | --- | --- |
+| bool | No | true |
 
 ### readOnly
 
 Whether the TextInput can be written to by the user.
 
-| **Type** | **Required** |
-| --- | --- |
-| bool | No |
+| **Type** | **Required** | **Default** |
+| --- | --- | --- |
+| bool | No | false |
 
 ### secure
 
 Whether characters are hidden in the TextInput. Commonly used for passwords.
 
-| **Type** | **Required** |
-| --- | --- |
-| bool | No |
+| **Type** | **Required** | **Default** |
+| --- | --- | --- |
+| bool | No | false |
 
 ### multiline
 
 Whether multiple lines can be inputted into the TextInput.
 
-| **Type** | **Required** |
-| --- | --- |
-| bool | No |
+| **Type** | **Required** | **Default** |
+| --- | --- | --- |
+| bool | No | false |
 
 ### onChange
 

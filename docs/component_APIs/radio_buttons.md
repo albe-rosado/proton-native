@@ -4,7 +4,7 @@ A choice between multiple options.
 
 Every child must be a RadioButtons.Item, that requires a string child that is the label to display to the right of the RadioButton.
 
-```javascript
+```jsx
 import React, { Component } from 'react';
 
 import { render, Window, App, RadioButtons } from 'proton-native';
@@ -40,25 +40,25 @@ render(<Example />);
 
 Whether the RadioButtons can be used.
 
-| **Type** | **Required** |
-| --- | --- |
-| bool | No |
+| **Type** | **Required** | **Default** |
+| --- | --- | --- |
+| bool | No | true |
 
 ### visible
 
 Whether the RadioButtons can be seen.
 
-| **Type** | **Required** |
-| --- | --- |
-| bool | No |
+| **Type** | **Required** | **Default** |
+| --- | --- | --- |
+| bool | No | true |
 
 ### selected
 
 What RadioButton is selected, zero-indexed. -1 means nothing is selected.
 
-| **Type** | **Required** |
-| --- | --- |
-| number | No |
+| **Type** | **Required** | **Default** |
+| --- | --- | --- |
+| number | No | -1 |
 
 ### onSelect
 

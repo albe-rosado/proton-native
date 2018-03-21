@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Proton Native - React Native for the desktop, cross compatible</title>
+  <link rel="icon" href="images/favicon.png">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta title="description" content="React Native for the desktop, cross compatible">
   <meta title="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -13,11 +14,29 @@
   <script>
     window.$docsify = {
       name: 'Proton Native',
-      repo: 'https://github.com/kusti8/proton-native',
       coverpage: true,
-      loadSidebar: true
+      loadSidebar: true,
+      plugins: [
+        function (hook) {
+          var footer = [
+            "<footer>",
+            "<div style='text-align:center'>",
+            "<img src='http://protonnative-af51.kxcdn.com/images/icon_black.svg' style='position:relative; top: 0px; padding-right: 10px;' width='5%' height='' alt='' />",
+            "Logo and graphics by <a href='https://twitter.com/elisiri_'>@elisiri_</a>",
+            "</div>",
+            "</footer>"
+          ].join('')
+
+          hook.afterEach(function (html) {
+            return html + footer
+          })
+        }
+      ]
     }
   </script>
   <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-bash.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-python.min.js"></script>
+  <script src="//unpkg.com/prismjs/components/prism-jsx.min.js"></script>
 </body>
 </html>
